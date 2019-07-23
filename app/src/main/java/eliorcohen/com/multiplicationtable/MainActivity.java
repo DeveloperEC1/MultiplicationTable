@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private GridView gridView;
     private Spinner spinnerSizeNum, spinnerFormat;
     private String[] sizeNum = {"3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"};
-    private String[] myFormat = {"decimal", "binary", "hex"};
+    private String[] myFormat = {"Decimal", "Binary", "Hex"};
     private Button btnApply;
     private ArrayAdapter<String> spinnerArrayAdapterSize, spinnerArrayAdapterFormat;
     private ArrayList[] listNums;
